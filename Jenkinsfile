@@ -1,9 +1,5 @@
-pipeline {
-  agent any
-
 node {
   withGradle {
-    sh './gradlew'
+    sh './gradlew build'
   }
-}
 }
