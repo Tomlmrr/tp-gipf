@@ -4,3 +4,6 @@ pipeline {
 node {
   withGradle {
     sh './gradlew'
+  }
+}
+}
